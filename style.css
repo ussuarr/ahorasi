@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #fdfdfd;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.semestre {
+  font-weight: bold;
+  margin: 1rem 0 0.5rem;
+}
+
+.asignatura {
+  border: 2px solid #ccc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f1f1f1;
+  transition: 0.3s;
+}
+
+.aprobada {
+  background-color: #e91e63;
+  color: white;
+  text-decoration: line-through;
+}
+
+.disponible {
+  background-color: #f8bbd0;
+  border-color: #ec407a;
+}
+
+.bloqueada {
+  background-color: #eee;
+  border-color: #aaa;
+  opacity: 0.6;
+}
